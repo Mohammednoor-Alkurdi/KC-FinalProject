@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_0453.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_081581.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_1062b_64f2223966684533b1fbf323d7a4c26d.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_1062b_a028fb38cbef4850b84e169f3d4acaec.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_1062b_c2e9407249774d4691dcfc8c2548f2a3.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_1062b_d22f2f8040e746b48db809025863a844.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_259023.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_33228.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_48602.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_76493.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/_97051.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/rounded.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/rounded2.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/roundedcard.xml" value="0.2085" />
+        <entry key="app/src/main/res/layout/activity_.xml" value="0.164581298828125" />
+        <entry key="app/src/main/res/layout/activity_bmi_calculator.xml" value="0.1957733154296875" />
+        <entry key="app/src/main/res/layout/activity_calorie_calculator.xml" value="0.174078369140625" />
+        <entry key="app/src/main/res/layout/activity_dp1.xml" value="0.20087778528021608" />
+        <entry key="app/src/main/res/layout/activity_dp2.xml" value="0.20101351351351351" />
+        <entry key="app/src/main/res/layout/activity_dp3.xml" value="0.2012174501183632" />
+        <entry key="app/src/main/res/layout/activity_dp4.xml" value="0.2262115478515625" />
+        <entry key="app/src/main/res/layout/activity_dp5.xml" value="0.14875335693359376" />
+        <entry key="app/src/main/res/layout/activity_dp6.xml" value="0.24146881103515622" />
+        <entry key="app/src/main/res/layout/activity_dp7_e.xml" value="0.1795166015625" />
+        <entry key="app/src/main/res/layout/activity_gain_no_fe.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_gain_no_male.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_gain_weight.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_gain_yes_fe.xml" value="0.1605926513671875" />
+        <entry key="app/src/main/res/layout/activity_gain_yes_male.xml" value="0.33166198730468754" />
+        <entry key="app/src/main/res/layout/activity_log_in.xml" value="0.18369598388671876" />
+        <entry key="app/src/main/res/layout/activity_lose_no_fe.xml" value="0.28156738281249993" />
+        <entry key="app/src/main/res/layout/activity_lose_no_male.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_lose_yes_fe.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_lose_yes_male.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1739654541015625" />
+        <entry key="app/src/main/res/layout/activity_main_page.xml" value="0.17118377685546876" />
+        <entry key="app/src/main/res/layout/activity_min_no_male_re.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout/activity_workout_gain_fe.xml" value="0.23125" />
+        <entry key="app/src/main/res/layout/activity_workout_lose_fe.xml" value="0.23125" />
+        <entry key="app/src/main/res/layout/activity_workout_loss.xml" value="0.16414489746093752" />
+        <entry key="app/src/main/res/layout/activity_workout_min.xml" value="0.14721527099609377" />
+        <entry key="app/src/main/res/layout/ctivity_gainno_fe.xml" value="0.23125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1957733154296875" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

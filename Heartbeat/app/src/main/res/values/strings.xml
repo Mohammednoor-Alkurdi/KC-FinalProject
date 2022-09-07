@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Heartbeat</string>
+
+    <string name="link1">For men workout ideas <a href="https://www.menshealth.com/workouts/">here</a></string>
+
+    <string name="lowcal">For low calorie recipes <a href="https://www.eatingwell.com/gallery/7961739/low-calorie-20-minute-dinner-recipes/">HERE</a></string>
+
+    <string name="highcal">For high calorie recipes <a href="https://www.crispyfoodidea.com/2021/04/easy-high-calorie-meals.html">HERE</a></string>
+
+    <string name="Sore">See why <a href="https://www.orlandohealth.com/content-hub/should-i-still-work-out-when-im-sore">HERE</a></string>
+
+    <string name="highpro"> For high protein recipes <a href="https://www.delish.com/cooking/recipe-ideas/g40834045/high-protein-meals/?slide=5">HERE</a></string>
+
+    <string name="meal1"> See why <a href="https://www.webmd.com/diet/is-eating-one-meal-a-day-safe">HERE</a></string>
+
+    <string name="workoutW"> For women workout ideas <a href="https://www.lifehack.org/695043/workout-routine-for-women-to-get-strong-and-toned">HERE</a></string>
+
+
+
+</resources>

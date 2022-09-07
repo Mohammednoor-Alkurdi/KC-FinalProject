@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/_29fb983_1775_4529_bd45_ec06fb1da0ba_1_201_a"
+        tools:context=".MainPage">
+
+
+        <TextView
+            android:id="@+id/p2dc4"
+            android:layout_width="335dp"
+            android:layout_height="185dp"
+            android:background="@drawable/rounded2"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.33" />
+
+        <TextView
+            android:id="@+id/p2dc6"
+            android:layout_width="330dp"
+            android:layout_height="180dp"
+            android:background="@drawable/rounded2"
+            android:backgroundTint="#4169e1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3312" />
+
+        <TextView
+            android:id="@+id/p4tv1"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="65dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Hi"
+            android:textColor="#C1D2F8"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.064"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.018" />
+
+        <TextView
+            android:id="@+id/p4tv"
+            android:layout_width="51dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="784dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:textColor="#728FCE"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/p4tv9"
+            android:layout_width="51dp"
+            android:layout_height="105dp"
+            android:layout_marginVertical="650dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="780dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:textColor="#728FCE"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.463"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/p4tv2"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="65dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:textColor="#C1D2F8"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.018" />
+
+        <TextView
+            android:id="@+id/p4tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="484dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Health calculators"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.189"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="0dp"
+            android:layout_height="190dp"
+            android:layout_marginBottom="132dp"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/p4cv1"
+                    android:layout_width="335dp"
+                    android:layout_height="185dp"
+                    android:layout_marginStart="40dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="45dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/p4cv5"
+                        android:layout_width="330dp"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="2.5dp"
+                        android:layout_marginTop="2.5dp"
+                        app:cardBackgroundColor="#4169e1"
+                        app:cardCornerRadius="45dp">
+
+                        <ImageView
+                            android:id="@+id/p4im2"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="220dp"
+                            android:layout_marginTop="30dp"
+                            app:srcCompat="@drawable/_1062b_2763c7c1fa604595ad5e54f8cfa441e0" />
+
+                        <TextView
+                            android:id="@+id/p4tv5"
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/sfproroundedbold"
+                            android:text="Calorie calculator"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30dp" />
+
+                        <TextView
+                            android:id="@+id/p4tv6"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/sfproroundedbold"
+                            android:text="Calculate your daily calories "
+                            android:textColor="#C1D2F8"
+                            android:textSize="16sp" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <Button
+                        android:id="@+id/p4butt"
+                        android:layout_width="70dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="130dp"
+                        android:layout_marginTop="120dp"
+                        android:background="@drawable/rounded"
+                        android:backgroundTint="@color/white"
+                        android:fontFamily="@font/sfproroundedbold"
+                        android:text="→"
+                        android:textColor="#4169e1"
+                        android:textSize="16sp" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/p4cv2"
+                    android:layout_width="335dp"
+                    android:layout_height="185dp"
+                    android:layout_marginStart="415dp"
+                    android:layout_marginTop="-185dp"
+                    android:layout_marginEnd="40dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="45dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/p4cv6"
+                        android:layout_width="330dp"
+                        android:layout_height="180dp"
+                        android:layout_marginStart="2.5dp"
+                        android:layout_marginTop="2.5dp"
+                        app:cardBackgroundColor="#4169e1"
+                        app:cardCornerRadius="45dp">
+
+                        <Button
+                            android:id="@+id/p4butt2"
+                            android:layout_width="70dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="130dp"
+                            android:layout_marginTop="120dp"
+                            android:background="@drawable/rounded"
+                            android:fontFamily="@font/sfproroundedbold"
+                            android:text="→"
+                            android:textColor="#4169e1"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/p4tv8"
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/sfproroundedbold"
+                            android:text="BMI calculator"
+                            android:textColor="#FFFFFF"
+                            android:textSize="28dp" />
+
+                        <TextView
+                            android:id="@+id/p4tv7"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="65dp"
+                            android:fontFamily="@font/sfproroundedbold"
+                            android:text="Calculate your BMI "
+                            android:textColor="#C1D2F8"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/p4im5"
+                            android:layout_width="120dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="210dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/screen_shot_2022_09_02_at_4_50_31_pm" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="400dp" />
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/p4tv10"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Diet plan"
+            android:textColor="#FCFDFF"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.289" />
+
+        <TextView
+            android:id="@+id/p4tv11"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Find a diet plan that helps you reach your goal!"
+            android:textColor="#C1D2F8"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.357" />
+
+        <Button
+            android:id="@+id/p4butt3"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="→"
+            android:textColor="#4169e1"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.418" />
+
+        <TextView
+            android:id="@+id/p4tv3"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="100dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Track your health"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

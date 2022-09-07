@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/_29fb983_1775_4529_bd45_ec06fb1da0ba_1_201_a"
+        tools:context=".MainPage">
+
+
+        <TextView
+            android:id="@+id/p6tv22"
+            android:layout_width="290dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Bulking is eating more calories than your daily need while working out"
+            android:textColor="#ECC5C0"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.329"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.076" />
+
+        <TextView
+            android:id="@+id/p6tv19"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Bulking plan"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.307"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.028" />
+
+        <TextView
+            android:id="@+id/p6dc4"
+            android:layout_width="350dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="840dp"
+            android:background="@drawable/rounded2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/p6dc5"
+            android:layout_width="350dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="1460dp"
+            android:background="@drawable/rounded2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttf"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="1620dp"
+            android:background="@drawable/rounded"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="home"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/p2dc7"
+            android:layout_width="145dp"
+            android:layout_height="95dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#026AE6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="1613dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/p6tv38"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Do not force yourself to workout when you are feeling so sour to ovoid injuries"
+            android:textColor="#C85757"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.781" />
+
+        <TextView
+            android:id="@+id/cal14"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="*"
+            android:textColor="#C85757"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.733" />
+
+        <TextView
+            android:id="@+id/p6tv37"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Do not replace healthy food with fast food just to have more calories per meal"
+            android:textColor="#C85757"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.603" />
+
+        <TextView
+            android:id="@+id/cal13"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="*"
+            android:textColor="#C85757"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.57" />
+
+        <TextView
+            android:id="@+id/p6tv36"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="What to ovoid ?"
+            android:textColor="#E8A49B"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.412"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.531" />
+
+        <TextView
+            android:id="@+id/p6tv39"
+            android:layout_width="290dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="If you follow this plan you shoud be able to gain 0.5 kg per week"
+            android:textColor="#E8A49B"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.329"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.924" />
+
+        <TextView
+            android:id="@+id/p6dc3"
+            android:layout_width="350dp"
+            android:layout_height="600dp"
+            android:background="@drawable/rounded2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.205" />
+
+        <TextView
+            android:id="@+id/lowcal6"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="@string/highcal"
+            android:textColor="#ECC5C0"
+            android:textColorLink="#E8A49B"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.397"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.252" />
+
+        <TextView
+            android:id="@+id/workoutw2"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="@string/workoutW"
+            android:textColor="#ECC5C0"
+            android:textColorLink="#E8A49B"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.343" />
+
+        <TextView
+            android:id="@+id/highpro3"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="@string/highpro"
+            android:textColor="#ECC5C0"
+            android:textColorLink="#E8A49B"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.455" />
+
+        <TextView
+            android:id="@+id/SW7"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="@string/Sore"
+            android:textColor="#ECC5C0"
+            android:textColorLink="#E8A49B"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.438"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.828" />
+
+        <TextView
+            android:id="@+id/p6tv31"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="What to do ?"
+            android:textColor="#E8A49B"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.426"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.138" />
+
+        <TextView
+            android:id="@+id/p6tv32"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Based on your age , weight and height"
+            android:textColor="#ECC5C0"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.281"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.162" />
+
+        <TextView
+            android:id="@+id/cal8"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="*"
+            android:textColor="#6BC73D"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.198" />
+
+        <TextView
+            android:id="@+id/p6tv33"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="you should eat around "
+            android:textColor="#6BC73D"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.202" />
+
+        <TextView
+            android:id="@+id/calf"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:textColor="#6BC73D"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222" />
+
+        <TextView
+            android:id="@+id/cal10"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="of calories per day"
+            android:textColor="#6BC73D"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.877"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.222" />
+
+        <TextView
+            android:id="@+id/cal11"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="*"
+            android:textColor="#6BC73D"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.295" />
+
+        <TextView
+            android:id="@+id/p6tv34"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="you should workout 4/5 times per week"
+            android:textColor="#6BC73D"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.592"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.301" />
+
+        <TextView
+            android:id="@+id/cal12"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="*"
+            android:textColor="#6BC73D"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.386" />
+
+        <TextView
+            android:id="@+id/p6tv35"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="Increase your daily protien intake to "
+            android:textColor="#6BC73D"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.617"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.394" />
+
+        <TextView
+            android:id="@+id/protein3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:text="grams"
+            android:textColor="#6BC73D"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.425" />
+
+        <TextView
+            android:id="@+id/proteinf"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/sfproroundedbold"
+            android:textColor="#6BC73D"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.404" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
